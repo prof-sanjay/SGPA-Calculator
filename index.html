@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>SGPA Calculator</h1>
+            <label>Application No:</label>
+            <input type="text" id="appNo" placeholder="Application no"><br>
+            <label>Roll No:</label>
+            <input type="text" id="rollNo" placeholder="roll number"><br>
+            <label>Name:</label>
+            <input type="text" id="name" placeholder="Name"><br>
+
+
+
+        <h3>Enter Marks</h3>
+
+        <div class="row"><label>MATHS:</label>
+        <input type="number" id="maths"></div>
+        <div class="row"><label>DSA:</label>
+        <input type="number" id="dsa"></div>
+        <div class="row"><label>FSD:</label>
+        <input type="number" id="fsd"></div>
+        <div class="row"><label>ML:</label>
+        <input type="number" id="ml"></div>
+        <div class="row"><label>RM:</label>
+        <input type="number" id="rm" ></div>
+        <div class="row"><label>MAOM:</label>
+        <input type="number" id="maom"></div>
+        <button id="calcBtn" onclick="calculate()">Calculate Result</button>
+        <div id="total"></div>  
+        <div id="result"></div>
+  </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
